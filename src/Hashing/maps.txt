@@ -1,0 +1,6 @@
+u would use maps cause int has a limit on size and maps let u exceed the limit
+also with maps u could just store the elements that are present in the array and non else
+maps always return null for elements that dont exist
+
+remember for hashmap best and avg case is O(1)
+worst case is O(n)

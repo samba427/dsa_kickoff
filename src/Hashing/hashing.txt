@@ -1,0 +1,6 @@
+hashing is basically a way to search for stuff much faster by pre computing the values and fetching as needed
+
+
+like we could have an array and know beforehand that it only stores nums from 0 to 12... so we will create a hash arr which has
+each index corresponding to nums from 0 to 12 and we parse thru the normal arr first and get each number's freq stored to its corresponding index...
+after that we can just fetch the desired value from the hash array as and when needed... this ofc reduces the time complexity too

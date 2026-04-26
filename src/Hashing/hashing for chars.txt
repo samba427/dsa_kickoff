@@ -1,0 +1,7 @@
+hashing can also be done for chars ofc... chars can be stored in a similar way take an array of length 26 store each element
+in its own index like a to 0 b to 1 z to 25 etc... we are assuming that the string from which we are checking has only
+lower case or upper case letters then... but realistically this ofc may not be the case... we may have a mix of chars and
+numbers and letters and everything in between... so we will need to declare an arr of 256 which can store everything in it
+all chars possible then fetch from it as and when needed.
+
+once again we are basically doing the same thing as the int hashing tbf.
