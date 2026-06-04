@@ -1,0 +1,3 @@
+hey so we are entering into sm new called bit manipulation... basic workings of how bits can be used to figure out stuff
+
+basic ops we have are $ | ^ << >> so most of the stuff we do will deal with this at the end of the day
