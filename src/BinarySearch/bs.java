@@ -19,7 +19,7 @@ public class bs
         System.out.println("enter number to be searched for");
         int item=sc.nextInt();
 
-        while(low<high)
+        while(low<=high)
         {
             mid=(low+high)/2;
             if(item>arr[mid])
