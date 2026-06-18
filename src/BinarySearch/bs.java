@@ -1,5 +1,5 @@
 //classic binary search
-
+//uses right left and mid to find an item in a given array
 package BinarySearch;
 import java.util.*;
 public class bs
