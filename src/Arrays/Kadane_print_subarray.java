@@ -1,3 +1,4 @@
+//kadane's algo... shortest way to print a req subarray
 package Arrays;
 import java.util.*;
 public class Kadane_print_subarray
