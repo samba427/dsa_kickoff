@@ -28,6 +28,8 @@ public class bs
                 high=mid-1;
             else break;
         }
+        if (arr[mid]!=item)
+            return;
         System.out.println(arr[mid]+" found in index number "+mid);
     }
 }
