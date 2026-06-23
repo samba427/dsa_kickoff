@@ -1,10 +1,7 @@
-//arr is rotated abt a pivot which is unknown and we have to find the location of a needed key as usual
-//since its rotated so just binary search isnt enough in a sense... but remember for every mid either of left or right will be sorted
-//we use at least one half sorted to remove the other half
-
+//same as the last one but we have duplicate elements now
 package BinarySearch;
-import java.util.*;
-public class rotated_search_one
+import java.util.Scanner;
+public class rotated_search_two
 {
     public static void main(String[] args)
     {
@@ -28,7 +25,12 @@ public class rotated_search_one
                 System.out.println("found at index "+mid);
                 return;
             }
-            if(arr[low]<=arr[mid])
+            if(arr[low]==arr[mid]&&arr[mid]==arr[high])
+            {
+                low++;
+                high--;
+            }
+            else if(arr[low]<=arr[mid])
             {
                 if(arr[low]<=key && key<=arr[mid])
                     high=mid-1;
