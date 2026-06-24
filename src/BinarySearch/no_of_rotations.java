@@ -49,7 +49,7 @@ public class no_of_rotations
                 }
                 high=mid-1;
             }
-            System.out.println("no of times rotated is "+index+" min element is "+ans);
         }
+        System.out.println("no of times rotated is "+index+" min element is "+ans);
     }
 }
