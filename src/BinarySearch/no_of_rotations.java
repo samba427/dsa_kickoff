@@ -1,8 +1,9 @@
-//rotated array problem as before but we are looking for the minimum element
-//idea we use here is that... wrt mid one half sorted other half unsorted and the min will always lie in unsorted half
+//we have to count no of times a sorted array was rotated...
+//just look at the search for minimum... the index of min ele is no of rotations
+
 package BinarySearch;
 import java.util.*;
-public class rotated_search_min
+public class no_of_rotations
 {
     public static void main(String[] args)
     {
@@ -16,26 +17,39 @@ public class rotated_search_min
 
         int low=0,high=n-1,mid=-1;
         int ans=Integer.MAX_VALUE;
+        int index=0;
 
         while(low<=high)
         {
             mid=(low+high)/2;
             if(arr[low]<=arr[high])
             {
-                ans=Math.min(ans,arr[low]);
+                if(arr[low]<=ans)
+                {
+                    ans=arr[low];
+                    index=low;
+                }
                 break;
             }
             if(arr[low]<=arr[mid])
             {
-                ans=Math.min(ans,arr[low]);
+                if(arr[low]<=ans)
+                {
+                    ans=arr[low];
+                    index=low;
+                }
                 low=mid+1;
             }
             else
             {
-                ans=Math.min(ans,arr[mid]);
+                if(arr[mid]<=ans)
+                {
+                    ans=arr[mid];
+                    index=mid;
+                }
                 high=mid-1;
             }
+            System.out.println("no of times rotated is "+index+" min element is "+ans);
         }
-        System.out.println(ans);
     }
 }
