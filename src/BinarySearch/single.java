@@ -1,5 +1,6 @@
 //to find the only single num in a sorted array of double nums
-
+//we use idea of how positions are made based on if the single num is present
+//normally double nums start with even end with odd index... after single num appears that gets reversed
 package BinarySearch;
 import java.util.*;
 public class single
