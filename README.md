@@ -5,4 +5,4 @@ arrays
 hashing
 sorting
 bit manipulations
-binary search
+binary search (binary search on 1d arr done)
