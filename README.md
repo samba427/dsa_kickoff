@@ -6,3 +6,4 @@ hashing
 sorting
 bit manipulations
 binary search (binary search on 1d arr done)
+(bs on answers)
