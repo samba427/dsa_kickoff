@@ -1,5 +1,5 @@
 //finding nth root of a number
-
+//return -1 if not integer
 package BinarySearch;
 import java.util.*;
 public class nth_root
