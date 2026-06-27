@@ -7,3 +7,4 @@ sorting
 bit manipulations
 binary search (binary search on 1d arr done)
 (bs on answers)
+27/6/26 started bs on answers
