@@ -1,4 +1,6 @@
 //finding square root of a number by binary search
+//return lower int if not found
+
 package BinarySearch;
 import java.util.*;
 public class sqrt
