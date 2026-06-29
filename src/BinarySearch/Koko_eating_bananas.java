@@ -5,7 +5,7 @@
 // If the pile contains less than ‘k’ bananas, then the monkey consumes all the bananas and won’t eat any more bananas in that hour.
 //
 //Find the minimum number of bananas ‘k’ to eat per hour so that the monkey can eat all the bananas within ‘h’ hours.
-
+//remember that we are looking for min speed that is the key here
 package BinarySearch;
 import java.util.*;
 public class Koko_eating_bananas
