@@ -16,11 +16,14 @@ public class del_Kth {
 
         //we have a doubly linked list now to work on
         //we will assume the numbering is 1 to n in the dll
-        int n=4;
+        int n=arr.length;
 
         Scanner sc=new Scanner(System.in);
         System.out.println("enter k");
         int k=sc.nextInt();
+
+        if(head.next==null)
+            head=null;
         if(k==1)
         {
             head=head.next;
